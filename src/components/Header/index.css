@@ -1,0 +1,41 @@
+/* Write your CSS code here */
+.nav-header {
+  min-height: 25vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: solid #551e53 5px;
+  border-radius: 5px;
+}
+.nav-menu {
+  display: flex;
+  margin-left: -40px;
+  list-style-type: none;
+}
+.nav-link {
+  text-decoration: none;
+  margin: 10px;
+  color: white;
+  font-family: 'Roboto';
+}
+.wave-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.sub-title {
+  color: white;
+  font-family: 'Roboto';
+  margin-top: 0px;
+}
+
+li {
+  list-style-type: none;
+  text-decoration: none;
+  margin: 10px;
+  color: white;
+  font-family: 'Roboto';
+  cursor: pointer;
+}
